@@ -440,3 +440,19 @@ align-content: space-between;
             justify-content: space-around;
         }
     }
+    @media only screen and (max-width: 800px) {
+     
+        header {
+            display: flex;
+            justify-content: flex-start;
+             flex-wrap: wrap;
+             flex-direction: row;
+             align-items: flex-start;
+           
+        }
+     
+    }
+
+
+
+    }
