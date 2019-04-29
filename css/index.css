@@ -87,6 +87,10 @@ nav {
 	padding-top: 10px;
 	text-decoration: none;
 }
+nav a {
+	text-decoration: none;
+	color: black;
+}
 
 .top-sec {
 
@@ -144,7 +148,7 @@ nav {
 
 
 }
-#one {
+.middle-sec .features {
 
 	display: flex;
 	flex-direction: column;
@@ -153,7 +157,7 @@ nav {
 
 
 }
-#two {
+.middle-sec .about {
 
 display: flex;
 flex-direction: column;
@@ -179,7 +183,7 @@ width: 100%;
 	padding-top: 1em;
 
 }
-#three {
+.bottom-sec .services {
 
 	display: flex;
 	width: 25%;
@@ -188,7 +192,7 @@ width: 100%;
 
 }
 
-#four {
+.bottom-sec .product {
 
 display: flex;
 width: 25%;
@@ -196,7 +200,7 @@ flex-direction: column;
 
 }
 
-#five  {
+.bottom-sec .vision  {
 
 	display: flex;
 	width: 25%;
@@ -222,225 +226,10 @@ footer {
 }
 
 
-	/* services.html */
-
-
- .top-services {
-
-	display:flex;
-	width: 90%; 
-	flex-direction: column;
-	justify-content: center;
-	flex-wrap:wrap;
-	align-items: flex-start;
-  align-content: space-between;
-
-
-
- } 
-
- .top-services img {
-	 align-self: stretch;
- }
-
- 
-top-services h1 {
-
-	padding-top: 1em;
-	font-weight: bold;
-	font-size: 25px;
-}
-
-.idk {
-
-	
-	
-height: max-content;
-display: flex ;
-justify-content: space-between;
-flex-wrap: wrap;
-max-width : 1100px;
-align-content: space-between;
-
-
-
-
-
-}
-
-.box-1  {
-
-	display: flex;
-	border: 1px solid black;
-	height: 300px;
-	width: 300px;
-	align-items: flex-start;
-	justify-content: space-around;
-	flex-direction: column;
-	background: #bbbb;
-  text-align: left;
-
-
-}
-
-.box-2 {
-
-
-
-	display: flex;
-	border: 1px solid black;
-	height: 300px;
-	width: 300px;
-  align-items: flex-start;
-	justify-content: space-around;
-	flex-direction: column;
-	background: #bbbb;
-  text-align: left;
-	;
-}
-
-.box-3 {
-
-
-	display: flex;
-	border: 1px solid black;
-  height: 300px;
-  align-items: flex-start;
-	justify-content:space-around;
-	flex-direction: column;
-	background: #bbbb;
-  text-align: left;
-	width:300px;
-}
-
-
-
-
-
-
-
-.box-4 {
-
-	display: flex;
-	border: 1px solid black;
-  height: 300px;
-  align-items: flex-start;
-	justify-content: space-around;
-	flex-direction: column;
-	background: #bbbb;
-  text-align: left;
-	width: 300px;
-}
-
-.box-5 {
-
-	display: flex;
-	border: 1px solid black;
-  height: 300px;
-  align-items: flex-start;
-	justify-content:space-around;
-	flex-direction: column;
-	background: #bbbb;
-  text-align: left;
-	width: 300px;
-
-}
-
-
-.box-6 {
-
-	display: flex;
-	border: 1px solid black;
-  height: 300px;
-  align-items: flex-start;
-	justify-content:space-around;
-	flex-direction: column;
-	background: #bbbb;
-  text-align: left;
-	width: 300px;
-
-}
-
-.bottom-content  {
- display: flex;
- flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-between;
-text-align: unset;
-align-content: space-between;
 
 
 
  
-}
-
-      UL {
-     
-		
-    list-style-type: circle;
-		list-style-position: outside;
-		
-
-	}
-	/*.bottom-content p {
-	display: flex;
-		width:400px;
-		height:400px;
-   */
-	}
-	.services-info-img{
-		width:500px;
-		height:500px;
-	
-	}
-	.bottom-content h2 {
-		font-size: 25px;
-		font-weight: bold;
-		padding-top: 10em:
-    }
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    @media only screen and (max-width: 1024px) {
-        html, body {
-            height: 100%;
-            font-family: 'Titillium Web', sans-serif;
-            padding: 20px;
-        }
-        .cta h1 {
-            display: flex;
-            font-size: 3.5rem;
-            padding-top: 8rem;
-        }
-        .top-sec img {
-            display: flex;
-            padding-top: 83px;
-            width: 47%;
-            height: 45%;
-            padding-right: 45px;
-        }
-        header {
-            display: flex;
-            /* justify-content: flex-start; */
-            /* flex-wrap: nowrap; */
-            /* align-items: flex-start; */
-            padding-top: 30px;
-            padding-right: 42px;
-            font-size: 14px;
-        }
-        header img {
-            width: 150px;
-        }
-        section.top-sec {
-            flex-wrap: nowrap;
-        
-        }
-        nav {
-            justify-content: space-around;
-        }
-    }
-   
      
     
 @media only screen and (max-width: 800px) {
