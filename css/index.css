@@ -87,7 +87,7 @@ nav {
 	padding-top: 10px;
 	text-decoration: none;
 }
-nav a {
+nav a{
 	text-decoration: none;
 	color: black;
 }
@@ -228,156 +228,101 @@ footer {
 
 
 
+@media (max-width: 1024px) {
 
- 
-     
-    
-@media only screen and (max-width: 800px) {
-
-
-	html, body, div, span, applet, object, iframe,
-	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-	a, abbr, acronym, address, big, cite, code,
-	del, dfn, em, img, ins, kbd, q, s, samp,
-	small, strike, strong, sub, sup, tt, var,
-	b, u, i, center,
-	dl, dt, dd, ol, ul, li,
-	fieldset, form, label, legend,
-	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed,
-	figure, figcaption, footer, header, hgroup,
-	menu, nav, output, ruby, section, summary,
-	time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
-	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure,
-	footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
 	body {
-		line-height: 1;
-	}
-	ol, ul {
-		list-style: none;
-	}
-	blockquote, q {
-		quotes: none;
-	}
-	blockquote:before, blockquote:after,
-	q:before, q:after {
-		content: '';
-		content: none;
-	}
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
+		max-width: 1024px;
+		margin: 20px;
 	
-	/* Set every element's box-sizing to border-box */
-	* {
-			box-sizing: border-box;
 	}
+
+.cta {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+
+
+}
+.cta button {
+	padding-left: 20px;
+	margin-left: 64px;
+		margin-top: 20px;
+		width:46%;
+}
+.cta h1 {
+	font-size: 70px;
+}
+.Contact {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+}
 	
-	html, body {
-			height: 100%;
-			font-family: 'Titillium Web', sans-serif;
-	}
-	
-	h1, h2, h3, h4, h5 {
-			font-family: 'Bangers', cursive;
-			letter-spacing: 1px;
-			margin-bottom: 15px;
-	}
+
+@media (max-width: 800px) {
+
 	body {
 		max-width: 800px;
-		margin: 0 auto;
+		max-height: 1370px;
+		margin: 20px;
+		resize: both;
+	
 	}
-
-
-
+	header{
+	display: flex;
+	flex-wrap:nowrap;
+	flex-direction: column-reverse;
+	}
+	nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-decoration: none;
 
 }
+nav a{
+	color: lightgrey;
+}
+header img {
 
-@media only screen and (max-width: 500px) {
-	html, body, div, span, applet, object, iframe,
-	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-	a, abbr, acronym, address, big, cite, code,
-	del, dfn, em, img, ins, kbd, q, s, samp,
-	small, strike, strong, sub, sup, tt, var,
-	b, u, i, center,
-	dl, dt, dd, ol, ul, li,
-	fieldset, form, label, legend,
-	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed,
-	figure, figcaption, footer, header, hgroup,
-	menu, nav, output, ruby, section, summary,
-	time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 12px;
-		
-		vertical-align: center;
-	}
-	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure,
-	footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
-	body {
-		line-height: 1;
-	}
-	ol, ul {
-		list-style: none;
-	}
-	blockquote, q {
-		quotes: none;
-	}
-	blockquote:before, blockquote:after,
-	q:before, q:after {
-		content: '';
-		content: none;
-	}
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
-	
-	/* Set every element's box-sizing to border-box */
-	* {
-			box-sizing: border-box;
-			display: flex;
-			flex-direction: column;
-			flex-wrap: nowrap;
-			
-			align-content: center;
-			align-items: center;
-		
-	}
-	
-	html, body {
-			height: 100%;
-			font-family: 'Titillium Web', sans-serif;
-	}
-	
-	h1, h2, h3, h4, h5 {
-			font-family: 'Bangers', cursive;
-			letter-spacing: 1px;
-			margin-bottom: 15px;
-	}
-	body {
-		max-width: 500px;
-		margin: 0 auto;
-	}
-	
+	display:flex;
+	padding-left:185px;
+}
+.top-sec img{
+	display: none;
+}
+.cta button {
+	width: 57%;
 
 }
-
-
-    
+.bottom-sec {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1em;
+	height: max-content;
+	width: auto;
+}
+.bottom-img img {
+	width: 102%;
+	height: 50%;
+}
+footer {
+	display: none;
+}
+hr {
+	background-color:black;
+	color: black;
+	border: solid 3px black;
+	height: 3px;
+}
+.Contact{
+	text-align: center;
+	
+}
+.Contact a {
+	text-decoration: none;
+	color:red;
+	background: black;
+}
+}
