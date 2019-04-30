@@ -99,19 +99,20 @@ nav a{
 
 	 display:flex;
 	 justify-content: space-around;
-	 flex-wrap: wrap;
+flex-wrap:nowrap;
+align-items:center;
 
 
 }
 
-.top-sec img {
+/*.top-sec img {
 
 	display: flex;
 	padding-top: 45px;
 	width: 45%;
 	height: 45%;
 }
-
+*/
 .cta {
 
 	display: flex ;
@@ -177,7 +178,7 @@ width: 35%;
 }
 .bottom-img img {
 
-width: 100%;
+max-width: 100%;
 }
 
 .bottom-sec {
@@ -269,14 +270,14 @@ footer {
 
 	body {
 		max-width: 800px;
-		max-height: 1370px;
+
 		margin: 20px;
-		resize: both;
+	
 	
 	}
 	header{
 	display: flex;
-	flex-wrap:nowrap;
+
 	flex-direction: column-reverse;
 	}
 	header hr {
@@ -340,43 +341,42 @@ footer {
     
 	body {
 		max-width: 500px;
-		max-height: 2047px;
-		resize: both;
+	
+
 	
 	}
 	header{
-		display: flex;
-		flex-wrap:nowrap;
+
+	
 		flex-direction: column-reverse;
 		}
 	
-header img {
-	align-self: center;
-	padding-left: 20px;
-}
+
 .navigation-main {
 
-	display: flex;
+
 	flex-direction: column;
-	flex-wrap: nowrap;
+
 }
   a {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	align-self: stretch;
-	align-items: center;
+	
+
+
+
+
 	padding: 20px;
 	padding: left 50px;
 	border-top: 1px solid lightgray;
-	border-bottom: 1px solid lightgray;
+
 	
 	}
 
 
 }
 
-
+a:last-child a {
+	border-bottom: 1px solid lightgray;
+}
 
 
 
