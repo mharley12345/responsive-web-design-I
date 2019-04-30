@@ -80,6 +80,9 @@ header {
 
 
 }
+header hr {
+	display: none;
+}
 nav {
 	width: 90%;
 	display:flex;
@@ -235,6 +238,9 @@ footer {
 		margin: 20px;
 	
 	}
+	header hr {
+		display: none;
+	}
 
 .cta {
 	display: flex;
@@ -273,6 +279,9 @@ footer {
 	flex-wrap:nowrap;
 	flex-direction: column-reverse;
 	}
+	header hr {
+		display: none;
+	}
 	nav {
     width: 100%;
     display: flex;
@@ -280,49 +289,102 @@ footer {
     padding-top: 20px;
     text-decoration: none;
 
-}
-nav a{
-	color: lightgrey;
-}
-header img {
+	}
+	nav a {
+		color: lightgrey;
+	}
+	header img {
 
-	display:flex;
-	padding-left:185px;
-}
-.top-sec img{
-	display: none;
-}
-.cta button {
-	width: 57%;
+		display:flex;
+		padding-left:185px;
+	}
+	.top-sec img {
+		display: none;
+	}
+	.cta button {
+		width: 57%;
 
-}
-.bottom-sec {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 1em;
-	height: max-content;
-	width: auto;
-}
-.bottom-img img {
-	width: 102%;
-	height: 50%;
-}
-footer {
-	display: none;
-}
-hr {
-	background-color:black;
-	color: black;
-	border: solid 3px black;
-	height: 3px;
-}
-.Contact{
-	text-align: center;
+	}
+	.bottom-sec {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 1em;
+		height: max-content;
+		width: auto;
+	}
+	.bottom-img img {
+		width: 102%;
+		height: 50%;
+	}
+
 	
+	hr {
+		background-color:black;
+		color: black;
+		border: solid 3px black;
+		height: 3px;
+	}
+	.Contact{
+		text-align: center;
+		
+	}
+	.Contact a {
+		text-decoration: none;
+		color:red;
+		background: black;
+	}
+
+
 }
-.Contact a {
-	text-decoration: none;
-	color:red;
-	background: black;
+@media (max-width: 500px) {
+    
+	body {
+		max-width: 500px;
+		max-height: 2047px;
+		resize: both;
+	
+	}
+	header{
+		display: flex;
+		flex-wrap:nowrap;
+		flex-direction: column-reverse;
+		}
+	
+header img {
+	align-self: center;
+	padding-left: 20px;
 }
+.navigation-main {
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+  a {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-self: stretch;
+	align-items: center;
+	padding: 20px;
+	padding: left 50px;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
